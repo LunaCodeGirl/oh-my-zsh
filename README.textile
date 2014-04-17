@@ -16,11 +16,11 @@ h3. The automatic installer… do you trust me?
 
 You can install this via the command-line with either @curl@ or @wget@.
 
-h4. via @curl@:
+@curl -L https://raw.githubusercontent.com/Spencevail/oh-my-zsh/master/tools/install.sh | sh@
 
 @curl -L http://install.ohmyz.sh | sh@
 
-h4. via @wget@:
+@wget --no-check-certificate https://raw.githubusercontent.com/Spencevail/oh-my-zsh/master/tools/install.sh -O - | sh@
 
 @wget --no-check-certificate http://install.ohmyz.sh -O - | sh@
 
@@ -28,7 +28,7 @@ h4. *Optionally*, change the install directory:
 
 The default location is @~/.oh-my-zsh@ (hidden in your home directory).
 
-You can change the install directory with the @ZSH@ environment variable, either by running @export ZSH=/your/path@ before installing, or by setting it before the end of the install pipeline like this:
+  @git clone git://github.com/Spencevail/oh-my-zsh.git ~/.oh-my-zsh@
 
 @curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | ZSH=~/.dotfiles/zsh sh@
 
