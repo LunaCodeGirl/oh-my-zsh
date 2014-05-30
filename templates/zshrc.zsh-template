@@ -55,7 +55,7 @@ alias ll='ls -alh'
 alias l='ll'
 alias la='ls -Alh'
 
-export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH="/Users/Spencevail/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
