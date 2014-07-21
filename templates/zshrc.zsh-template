@@ -57,7 +57,7 @@ alias ll='ls -alh'
 alias l='ll'
 alias la='ls -Alh'
 
-export PATH="/Users/Spencevail/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
+export PATH="/Users/Spencevail/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
